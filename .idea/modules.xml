@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/WMAD202Structure.iml" filepath="$PROJECT_DIR$/WMAD202Structure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Wmad202-2022/Wmad202-2022.iml" filepath="$PROJECT_DIR$/Wmad202-2022/Wmad202-2022.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wmad202-assignment1/wmad202-assignment1.iml" filepath="$PROJECT_DIR$/wmad202-assignment1/wmad202-assignment1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wmad202-assignment10/wmad202-assignment10.iml" filepath="$PROJECT_DIR$/wmad202-assignment10/wmad202-assignment10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wmad202-assignment2/wmad202-assignment2.iml" filepath="$PROJECT_DIR$/wmad202-assignment2/wmad202-assignment2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wmad202-assignment3/wmad202-assignment3.iml" filepath="$PROJECT_DIR$/wmad202-assignment3/wmad202-assignment3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wmad202-assignment4/wmad202-assignment4.iml" filepath="$PROJECT_DIR$/wmad202-assignment4/wmad202-assignment4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wmad202-assignment5/wmad202-assignment5.iml" filepath="$PROJECT_DIR$/wmad202-assignment5/wmad202-assignment5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wmad202-assignment6/wmad202-assignment6.iml" filepath="$PROJECT_DIR$/wmad202-assignment6/wmad202-assignment6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wmad202-assignment7/wmad202-assignment7.iml" filepath="$PROJECT_DIR$/wmad202-assignment7/wmad202-assignment7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wmad202-assignment8/wmad202-assignment8.iml" filepath="$PROJECT_DIR$/wmad202-assignment8/wmad202-assignment8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wmad202-assignment9/wmad202-assignment9.iml" filepath="$PROJECT_DIR$/wmad202-assignment9/wmad202-assignment9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wmad202-lecture-code/wmad202-lecture-code.iml" filepath="$PROJECT_DIR$/wmad202-lecture-code/wmad202-lecture-code.iml" />
+    </modules>
+  </component>
+</project>
