@@ -10,7 +10,7 @@ public class Question10 {
             if(Math.pow(2,i)<Math.pow(i,5)){
                 System.out.println("Numbers are F1(x)<F2(x): "+i);
             }
-            break;
+
 
 
 
