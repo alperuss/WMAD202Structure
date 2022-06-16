@@ -9,7 +9,7 @@ public class Question5 {
         Scanner input = new Scanner(System.in);
         System.out.println("Please enter number: ");
         int number = input.nextInt();
-        while(number<100){
+        while(number<100){      // Stops when write greater than 100 and makes list
             list.add(number);
             number = input.nextInt();
         }
