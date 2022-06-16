@@ -16,9 +16,9 @@ public class WMAD202Driver {
 
         //Assignment1Driver.run();
         //System.out.println();
-        Assignment2Driver.run();
-        System.out.println();
-        //Assignment3Driver.run();
+//        Assignment2Driver.run();
+//        System.out.println();
+        Assignment3Driver.run();
         //Assignment4Driver.run();
         //Assignment5Driver.run();
         //Assignment6Driver.run();
