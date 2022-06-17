@@ -40,10 +40,10 @@ public class Question10 {
     public static void question3(String factor){
 
         String[] arr = new String[2];
-        String[] parts =factor.split("\\+");
+        String[] parts =factor.split("\\+"); // Split each factor in array
         for (int i =0;i< parts.length;i++) {
-            String[] partPart=parts[i].split("\\^");
-            arr[i]= partPart[1];
+            String[] partPart=parts[i].split("\\^"); // split each exponents
+            arr[i]= partPart[1];                            // add each exponents to array
 
         }
         Arrays.sort(arr,Collections.reverseOrder());
