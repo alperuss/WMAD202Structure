@@ -1,6 +1,5 @@
 package ca.ciccc.wmad202.assignment3.question10;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.Scanner;
@@ -13,9 +12,11 @@ public class Question10 {
         String factor4 = factor();
         String factor1_2 = factor1 +" + "+ factor2;
         String factor3_4 = factor3 +" + "+ factor4;
+        String factorAll= factor1_2 + " + "+ factor3_4;
         //question1(factor1,factor2);
         //question2(factor1_2,factor3_4);
         //question3(factor1_2);
+        question4(factorAll);
 
     }
     public static void question1(String factor1,String factor2){
@@ -50,6 +51,31 @@ public class Question10 {
 
 
     }
+    public static void question4(String factor1){
+
+        String[] exponent = new String[4];
+        String[] coefficient = new String[4];
+        //String[] partPart = new String[4];
+        String[] parts1 =factor1.split("\\+");
+        int sum = 0;
+        for(int i = 0; i<parts1.length;i++){
+            String[] index = parts1[i].split("\\^");
+            exponent[i]= index[1];
+        }
+        for(int i = 0; i<parts1.length;i++){
+            String[] partPart = parts1[i].split("\\*");
+            coefficient[i]= partPart[0];
+        }
+
+
+        System.out.println("Exponents are : " + Arrays.toString(exponent));
+        System.out.println(Arrays.toString(parts1));
+        System.out.println("Coefficients are : " + Arrays.toString(coefficient));
+
+
+    }
+
+
     public static boolean checkSingleFactorEquality(String factor1,String factor2){
         if (factor1.equals(factor2)){
 
