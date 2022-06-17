@@ -48,7 +48,7 @@ public class Assignment3Driver {
 //        q9.main();
 
         Question10 q10 = new Question10();
-        q10.question1();
+        q10.main();
 
 
 
