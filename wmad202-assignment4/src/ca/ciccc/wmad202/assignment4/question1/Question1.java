@@ -23,6 +23,7 @@ public class Question1 {
                 System.out.println("Please enter a new number: ");
                 number = input.nextInt();
             }
+
         }
 
         for(Integer i : numbers.keySet()){
