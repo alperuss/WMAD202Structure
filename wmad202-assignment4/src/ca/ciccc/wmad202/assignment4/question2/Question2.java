@@ -7,9 +7,6 @@ public class Question2 {
         HashMap<String, HashSet<String>> listOfHashMap= createHashMap();
         System.out.println(listOfHashMap);
 
-
-
-
     }
     public static HashMap<String, HashSet<String>> createHashMap() {
         Scanner input = new Scanner(System.in);

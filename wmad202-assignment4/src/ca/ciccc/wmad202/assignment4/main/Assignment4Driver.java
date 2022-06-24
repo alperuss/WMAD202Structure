@@ -13,8 +13,8 @@ public class Assignment4Driver {
 
 //        Question1 q1 = new Question1();
 //        q1.test();
-        Question2 q2 = new Question2();
-        q2.test();
+//        Question2 q2 = new Question2();
+//        q2.test();
 //        Question3 q3 = new Question3();
 //        q3.test();
 //        Question4 q4 = new Question4();
