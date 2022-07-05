@@ -35,22 +35,29 @@ public class testClass {
 
     }
     public static void testFactorExample(){
-        SinglePolynomialFactor factor1= new SinglePolynomialFactor(4,"x",2);
-        SinglePolynomialFactor factor2= new SinglePolynomialFactor(4,"x",2);
+        SinglePolynomialFactor singleFactor1= new SinglePolynomialFactor(3,5);
+        SinglePolynomialFactor singleFactor2= new SinglePolynomialFactor(5,4);
+        SinglePolynomialFactor singleFactor3= new SinglePolynomialFactor(4,4);
+        SinglePolynomialFactor singleFactor4= new SinglePolynomialFactor(3,5);
 
-        String factor= factor1.getSinglePolynomialFactor();
-        String factor22= factor2.getSinglePolynomialFactor();
+        System.out.println("Single factors equal or not: " + singleFactor1.checkSingleFactorEquality(singleFactor2));
 
-        PolynomialFactor factor3= new PolynomialFactor();
-        factor3.addSinglePolynomialFactor(factor1,0);
-        factor3.addSinglePolynomialFactor(factor2,1);
+        PolynomialFactor factor= new PolynomialFactor();
+        PolynomialFactor factor2= new PolynomialFactor();
 
-        System.out.println(String.valueOf(factor3.getPolynomialFactor()));
+        factor.addSinglePolynomialFactor(singleFactor1,0);
+        factor.addSinglePolynomialFactor(singleFactor2,1);
+
+        factor2.addSinglePolynomialFactor(singleFactor3,0);
+        factor2.addSinglePolynomialFactor(singleFactor4,1);
+
+        System.out.println("Polynomial factors equal or not: " + factor.checkPolynomialEquationsEquality(factor2));
+
+        System.out.println("Biggest exponent number is "+factor.getBiggestExponentNumber());
+        factor.addPolynomialEquations(factor2);
 
 
 
-        System.out.println(factor);
-        System.out.println(factor22);
 
 
     }

@@ -1,14 +1,17 @@
 package ca.ciccc.wmad202.assignment5.question3;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+
 public class SinglePolynomialFactor {
 
     private int coefficient;
-    private String baseFactor;
+    private final String baseFactor="x";
     private int exponent;
 
-    public SinglePolynomialFactor(int coefficient,String baseFactor,int exponent){
+    public SinglePolynomialFactor(int coefficient,int exponent){
         this.coefficient=coefficient;
-        this.baseFactor=baseFactor;
+
         this.exponent=exponent;
 
     }
@@ -42,6 +45,15 @@ public class SinglePolynomialFactor {
         String factor= (this.coefficient + "*" + this.baseFactor + "^" + this.exponent);
         return factor;
 
+    }
+
+    public boolean checkSingleFactorEquality(SinglePolynomialFactor factor2){
+        if (this.exponent== factor2.exponent && this.coefficient== factor2.coefficient){
+            return true;
+        }
+        else {
+            return false;
+        }
     }
 
 }
