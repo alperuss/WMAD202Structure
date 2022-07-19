@@ -1,6 +1,7 @@
 package ca.ciccc.main;
 
 import ca.ciccc.wmad202.assignment7.main.Assignment7Driver;
+import ca.ciccc.wmad202.nestedClasses.main.NestedCodeDriver;
 
 public class WMAD202Driver {
     public static void main(String[] args){
@@ -13,10 +14,12 @@ public class WMAD202Driver {
 //        Assignment4Driver.run();
 //        Assignment5Driver.run();
 //        Assignment6Driver.run();
-        Assignment7Driver.run();
+//        Assignment7Driver.run();
         //Assignment8Driver.run();
         //Assignment9Driver.run();
         //Assignment10Driver.run();
+        NestedCodeDriver.run();
+
 
 
     }

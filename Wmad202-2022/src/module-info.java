@@ -10,6 +10,7 @@ module ca.ciccc.wmad {
     requires wmad202.assignment9;
     requires wmad202.assignment10;
     requires wmad202.lecture.code;
+    requires wmad202.nested.classes;
 
 
 }
