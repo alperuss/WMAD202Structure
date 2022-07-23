@@ -1,4 +1,4 @@
-package ca.ciccc.wmad202.assignment9;
+package ca.ciccc.wmad202.assignment9.question2;
 
 //T - the type of the first argument to the function
 //U - the type of the second argument to the function

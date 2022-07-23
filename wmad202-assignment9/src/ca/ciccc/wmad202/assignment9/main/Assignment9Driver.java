@@ -1,13 +1,12 @@
 package ca.ciccc.wmad202.assignment9.main;
 
-import ca.ciccc.wmad202.assignment9.ListCombiner;
+import ca.ciccc.wmad202.assignment9.question2.ListCombiner;
 import ca.ciccc.wmad202.assignment9.question1.SupplierExample;
 import ca.ciccc.wmad202.assignment9.question1.ToDoubleBiFunctionExample;
 import ca.ciccc.wmad202.assignment9.question1.UnaryOperatorExample;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.function.UnaryOperator;
 
 public class Assignment9Driver {
     public static void run(){
